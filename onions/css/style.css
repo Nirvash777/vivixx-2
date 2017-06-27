@@ -1,0 +1,182 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Lobster');
+    body{
+      height: 100%;
+    }
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+
+
+
+      .pages{
+        width: 100%;
+        height: 650px;
+        position: relative;
+      }
+
+      .bg{
+        background-image: url('../images/bg.jpg');
+        background-size: cover;
+      }
+
+      #banner{
+        width: 100%;
+        height: 250px;
+        position: relative;
+        top: 25%;
+        background-color: rgba(8, 8, 8, 0.3);
+        /*background-color: rgba(0, 51, 102, 0.3);*/
+        font-weight: bolder;
+        font-family: lobster;
+
+      }
+      h1{
+        font-size: 60px;
+        line-height: 250px;
+        color: #003366;
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 1px 2px #FFFFFF;
+      }
+      /*h1:hover{
+      background-color: rgba(255, 0, 0  , 0.3);
+      }*/
+
+      #nav{
+        position: absolute;
+        top: 68%;
+        left: 40%;
+        color: #FFFFFF;
+        font-family: verdana;
+      }
+
+      #nav a:link{
+        color: #FFFFFF;
+      }
+
+    #nav a:hover{
+          text-decoration: overline;
+      }
+
+    #nav a:visited{
+        color: #FFFFFF;
+      }
+
+      .header{
+          position: relative;
+          width: 100%;
+          height: 10%;
+          background-color: #003366;
+          font-family: 'times new roman';
+      }
+
+      h6{
+        color: #FFFFFF;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 200%;
+      }
+
+      p{
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        font-family: verdana;
+      }
+
+      .row{
+        width: 80%;
+        padding-left: 5%;
+        margin: auto;
+        position: relative;
+        color: #FFFFFF;
+        display: block;
+        clear: both;
+      }
+
+      .col{
+        float: left;
+        padding: 1%;
+        margin: 0.85%;
+        width: 43%;
+        height: 250px;
+        background-color: #FF6600;
+        border-radius: 10px;
+      }
+
+      .no-radius{
+        border-radius: 0;
+
+      }
+      .onion{
+        background-image: url(../images/onion.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
+
+
+      hr{
+        width: 80%;
+        margin: auto;
+      }
+
+      .back{
+        position: relative;
+        background-color: red;
+        width: 100%;
+
+
+      }
+
+      .back a{
+        color: #000000;
+        font-weight: bolder;
+        position: absolute;
+        left: 45.5%;
+      }
+
+      .o1{
+        background-image: url('../images/o1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .o2{
+        background-image: url('../images/o2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .comment{
+        position: absolute;
+        bottom: 0;
+      }
+
+      .red{
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        bottom: -5%;
+        right: 10%;
+      }
+
+      .content{
+        position: relative;
+        width: 100%;
+        height: 470px;
+
+      }
+
+      @keyframes fade {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+      [animate-this="fade"]{
+        animation-name: fade;
+        animation-duration: 4s;
+      }

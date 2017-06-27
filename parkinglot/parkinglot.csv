@@ -1,0 +1,21 @@
+location,owner,space,price,username,password,code
+Session Road 2,Erik Coopers,12,150,erik,12345678,1
+SM Baguio,James Yap,15,300,james,12345678,3
+Quezon Hill,Ken Lim,15,200,ken,12345678,4
+La Union,Justin James,6,200,jc,12345678,5
+Baguio,Mike Curry,3,0.5,mike,12345678,10
+SM,Mary Chelle,3,3,chelle,12345678,11
+Navy Base,Mary Chelle,5,3,chelle,12345678,12
+baguio,Mary Chelle,2,1.5,chelle,12345678,13
+Quezon Hill,john smith,5,.50,john,12345678,2
+Naguillan,john smith,3,80,john,12345678,8
+Session Road,john smith,2,2,john,12345678,9
+SM,john smith,2,.5,john,12345678,14
+manila,Rainer,3,2,rain,12345678,15
+Manila,May Yonaise,4,200,may,12345678,6
+Baguio,May Yonaise,9,300,may,12345678,7
+Session 2,May Yonaise,2,0.5,may,12345678,16
+Navy Base,Sam Smith,6,3,sam,12345678,17
+Calle Uno,Ace Estrada,5,1,ace,12345678,18
+Navy base,Ace Estrada,6,.5,ace,12345678,19
+jj,jj,2,3,jj,12345678,20
